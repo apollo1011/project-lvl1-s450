@@ -1,6 +1,0 @@
-]0;apollo11@DESKTOP-38A54LD: /mnt/c/Users/User/hexlet/project-lvl1-s450[01;32mapollo11@DESKTOP-38A54LD[00m:[01;34m/mnt/c/Users/User/hexlet/project-lvl1-s450[00m$ sudo install -g apollo1011
-[sudo] password for apollo11: 
-install: missing file operand
-Try 'install --help' for more information.
-]0;apollo11@DESKTOP-38A54LD: /mnt/c/Users/User/hexlet/project-lvl1-s450[01;32mapollo11@DESKTOP-38A54LD[00m:[01;34m/mnt/c/Users/User/hexlet/project-lvl1-s450[00m$ exit
-exit
