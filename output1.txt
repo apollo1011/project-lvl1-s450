@@ -1,0 +1,35 @@
+]0;apollo11@DESKTOP-38A54LD: /mnt/c/Users/User/hexlet/project-lvl1-s450[01;32mapollo11@DESKTOP-38A54LD[00m:[01;34m/mnt/c/Users/User/hexlet/project-lvl1-s450[00m$ sudo npm intall -g apollo1011
+[sudo] password for apollo11: 
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    /home/apollo11/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.7.0 /usr/lib/node_modules/npm
+
+Did you mean one of these?
+    install
+    uninstall
+]0;apollo11@DESKTOP-38A54LD: /mnt/c/Users/User/hexlet/project-lvl1-s450[01;32mapollo11@DESKTOP-38A54LD[00m:[01;34m/mnt/c/Users/User/hexlet/project-lvl1-s450[00m$ exit
+exit
