@@ -1,2 +1,4 @@
 #!/usr/bin/env node
-import {} from '..';
+import myDefault from '..';
+
+myDefault();
