@@ -1,15 +1,17 @@
 import { cons } from 'hexlet-pairs';
-import myDefault from '..';
-import makeRandom from '../utils/random';
+import makeGame from '..';
+import makeRandom from '../utils';
 
 const operatorsMaxIndex = 2;
 
+const gameDescription = 'What is the result of the expression?';
+
 const operators = '*+-';
-const calcGame = () => {
-  const getOperator = operators[makeRandom(0, operatorsMaxIndex)];
+const createCalcGame = () => {
+  const randomOperator = operators[makeRandom(0, operatorsMaxIndex)];
   const firstNumber = makeRandom(1, 100);
   const secondNumber = makeRandom(1, 100);
-  const question = firstNumber + getOperator + secondNumber;
+  const question = firstNumber + randomOperator + secondNumber;
   const getCorrectAnswer = (operator) => {
     let result;
     switch (operator) {
@@ -23,11 +25,9 @@ const calcGame = () => {
     }
     return result;
   };
-  const correctAnswer = getCorrectAnswer(getOperator).toString();
+  const correctAnswer = getCorrectAnswer(randomOperator).toString();
   const pair = cons(question, correctAnswer);
   return pair;
 };
 
-
-const game = () => myDefault('What is the result of the expression?', calcGame);
-export default game;
+export default () => makeGame(gameDescription, createCalcGame);
