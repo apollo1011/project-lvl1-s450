@@ -1,9 +1,9 @@
 import { cons } from 'hexlet-pairs';
 import myDefault from '..';
+import makeRandom from '../utils/random';
 
 const operatorsMaxIndex = 2;
 
-const makeRandom = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 const operators = '*+-';
 const calcGame = () => {
   const getOperator = operators[makeRandom(0, operatorsMaxIndex)];
