@@ -1,5 +1,5 @@
 import { cons } from 'hexlet-pairs';
-import createGame from '..';
+import makeGame from '..';
 import makeRandom from '../utils';
 
 const gameDescription = 'Answer "yes" if number even otherwise answer "no".';
@@ -13,4 +13,4 @@ const createEvenGame = () => {
   return pair;
 };
 
-export default () => createGame(gameDescription, createEvenGame);
+export default () => makeGame(gameDescription, createEvenGame);
